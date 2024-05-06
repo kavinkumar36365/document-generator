@@ -56,16 +56,16 @@ This script will:
 
 You can modify the hyperparameters of the model by editing the `hyperparameters.yaml` file. The available hyperparameters are:
 
-`batch_size`: Batch size for training
-`block_size`: Maximum sequence length
-`max_iters`: Maximum number of training iterations
-`eval_interval`: Interval (in iterations) for evaluating the model on the validation set
-`learning_rate`: Learning rate for the optimizer
-`eval_iters`: Number of iterations for evaluating the model
-`n_embd`: Embedding dimension
-`n_head`: Number of attention heads
-`n_layer`: Number of Transformer blocks
-`dropout`: Dropout rate
+- `batch_size`: Batch size for training
+- `block_size`: Maximum sequence length
+- `max_iters`: Maximum number of training iterations
+- `eval_interval`: Interval (in iterations) for evaluating the model on the validation set
+- `learning_rate`: Learning rate for the optimizer
+- `eval_iters`: Number of iterations for evaluating the model
+- `n_embd`: Embedding dimension
+- `n_head`: Number of attention heads
+- `n_layer`: Number of Transformer blocks
+- `dropout`: Dropout rate
 
 ## File Structure
 
