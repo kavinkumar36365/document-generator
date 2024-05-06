@@ -69,9 +69,9 @@ You can modify the hyperparameters of the model by editing the `hyperparameters.
 
 ## File Structure
 
--`tokenizer.py`: Contains the naive_tokenizer class for tokenizing text data
--`model.py`: Contains the implementation of the BigramLanguageModel and its components (attention, feed-forward, and Transformer block)
--`train.py`: Script for training the model
--`generate.py`: Script for generating new text using the trained model
--`hyperparameters.yaml`: Configuration file for model hyperparameters
--`weights.pth`: File for storing the trained model weights (generated during training)
+- `tokenizer.py`: Contains the naive_tokenizer class for tokenizing text data.
+- `model.py`: Contains the implementation of the BigramLanguageModel and its components (attention, feed-forward, and Transformer block).
+-`train.py`: Script for training the model.
+- `generate.py`: Script for generating new text using the trained model.
+- `hyperparameters.yaml`: Configuration file for model hyperparameters.
+- `weights.pth`: File for storing the trained model weights (generated during training).
