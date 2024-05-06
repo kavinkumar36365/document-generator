@@ -13,12 +13,6 @@ To start working with the scripts in this workspace, follow these steps:
 
 4. After the model is trained, run `generate.py` to generate the document based on the training data. This script uses the trained model to generate the document.
 
-## Files in the Repository
-
-- `train.py`: This script is used to train the model based on the input data.
-- `generate.py`: This script is used to generate the document using the trained model.
-- `tokenizer.py`: This script provides functions for tokenizing text data.
-- `model.py`: This script contains the implementation of the document generation model.
 
 Usage
 -----
@@ -75,9 +69,9 @@ You can modify the hyperparameters of the model by editing the `hyperparameters.
 
 ## File Structure
 
-`tokenizer.py`: Contains the naive_tokenizer class for tokenizing text data
-`model.py`: Contains the implementation of the BigramLanguageModel and its components (attention, feed-forward, and Transformer block)
-`train.py`: Script for training the model
-`generate.py`: Script for generating new text using the trained model
-`hyperparameters.yaml`: Configuration file for model hyperparameters
-`weights.pth`: File for storing the trained model weights (generated during training)
+-`tokenizer.py`: Contains the naive_tokenizer class for tokenizing text data
+-`model.py`: Contains the implementation of the BigramLanguageModel and its components (attention, feed-forward, and Transformer block)
+-`train.py`: Script for training the model
+-`generate.py`: Script for generating new text using the trained model
+-`hyperparameters.yaml`: Configuration file for model hyperparameters
+-`weights.pth`: File for storing the trained model weights (generated during training)
